@@ -4,7 +4,5 @@ project(p101_unix_examples_sys
         DESCRIPTION ""
         LANGUAGES C)
 
-message(STATUS "Compiler being used: ${CMAKE_C_COMPILER}")
-
 add_subdirectory(mount)
 add_subdirectory(timex)
